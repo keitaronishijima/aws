@@ -26,7 +26,7 @@ app.get(
     session: false,
   }),
   (req, res) => {
-    res.send("認証されました");
+    res.send("SUCCESS");
   }
 );
 
