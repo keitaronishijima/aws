@@ -23,6 +23,10 @@ app.get("/", (req, res) => {
   res.send("AWS");
 });
 
+app.get("/yo", (req, res) => {
+    res.send("yo");
+  });
+
 app.get(
   "/secret",
   passport.authenticate("digest", {
