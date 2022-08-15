@@ -5,4 +5,4 @@ app.get('/', function(req, res){
   res.send('Hello node.js');
 });
 
-app.listen(3000, '52.195.18.17', onServerListening);
+app.listen(3000, '52.195.18.17');
