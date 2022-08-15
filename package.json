@@ -1,0 +1,27 @@
+{
+  "name": "aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keitaronishijima/aws.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keitaronishijima/aws/issues"
+  },
+  "homepage": "https://github.com/keitaronishijima/aws#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ip": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/ip": "^1.1.0"
+  }
+}
