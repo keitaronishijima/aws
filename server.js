@@ -32,7 +32,7 @@ let express = require("express");
 const app = express();
 
 const port = Number(process.env.PORT || 80);
-const hostname = process.env.HOST || "0.0.0.0";
+const hostname = process.env.HOST || "35.77.54.64";
 
 app.listen(port, hostname, () => {
   const host = ip.address();
