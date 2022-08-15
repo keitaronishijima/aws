@@ -19,7 +19,9 @@
   "homepage": "https://github.com/keitaronishijima/aws#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "ip": "^1.1.8"
+    "ip": "^1.1.8",
+    "passport": "^0.6.0",
+    "passport-http": "^0.3.0"
   },
   "devDependencies": {
     "@types/ip": "^1.1.0"
